@@ -65,7 +65,7 @@ root.geometry("%dx%d+%d+%d" % (500,500,x_cor,y_cor))
 Title1 = tk.Label(root,text="Welcome to Steel Shape Up",bg = "#C1CDCD", font = "Verdana 24")
 Title2 = tk.Label(root,text="an app that helps you design steel members!",bg = "#C1CDCD", font = "Verdana 20")
                  
-T1 = tk.Label(root,text="Which design pholosophy do you follow?",bg = "#C1CDCD")
+T1 = tk.Label(root,text="Which design philosophy do you follow?",bg = "#C1CDCD")
 R_LRFD = tk.Radiobutton(root, text="LRFD", variable=method, value="LRFD",bg = "#C1CDCD")
 R_ASD = tk.Radiobutton(root, text="ASD", variable=method, value="ASD",bg = "#C1CDCD")
 
